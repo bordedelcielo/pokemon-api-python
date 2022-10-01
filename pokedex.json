@@ -1,0 +1,230 @@
+{
+    "electric": {
+        "pichu": {
+            "abilities": [
+                "static",
+                "lightning-rod"
+            ],
+            "weight": 20
+        },
+        "pikachu": {
+            "abilities": [
+                "static",
+                "lightning-rod"
+            ],
+            "weight": 60
+        },
+        "raichu": {
+            "abilities": [
+                "static",
+                "lightning-rod"
+            ],
+            "weight": 300
+        }
+    },
+    "psychic": {
+        "mewtwo": {
+            "abilities": [
+                "pressure",
+                "unnerve"
+            ],
+            "weight": 1220
+        }
+    },
+    "normal": {
+        "jigglypuff": {
+            "abilities": [
+                "cute-charm",
+                "competitive",
+                "friend-guard"
+            ],
+            "weight": 55
+        },
+        "spearow": {
+            "abilities": [
+                "keen-eye",
+                "sniper"
+            ],
+            "weight": 20
+        },
+        "fearow": {
+            "abilities": [
+                "keen-eye",
+                "sniper"
+            ],
+            "weight": 380
+        },
+        "meowth": {
+            "abilities": [
+                "pickup",
+                "technician",
+                "unnerve"
+            ],
+            "weight": 42
+        }
+    },
+    "fairy": {
+        "jigglypuff": {
+            "abilities": [
+                "cute-charm",
+                "competitive",
+                "friend-guard"
+            ],
+            "weight": 55
+        }
+    },
+    "water": {
+        "goldeen": {
+            "abilities": [
+                "swift-swim",
+                "water-veil",
+                "lightning-rod"
+            ],
+            "weight": 150
+        },
+        "squirtle": {
+            "abilities": [
+                "torrent",
+                "rain-dish"
+            ],
+            "weight": 90
+        }
+    },
+    "fighting": {
+        "lucario": {
+            "abilities": [
+                "steadfast",
+                "inner-focus",
+                "justified"
+            ],
+            "weight": 540
+        }
+    },
+    "steel": {
+        "lucario": {
+            "abilities": [
+                "steadfast",
+                "inner-focus",
+                "justified"
+            ],
+            "weight": 540
+        }
+    },
+    "fire": {
+        "charmander": {
+            "abilities": [
+                "blaze",
+                "solar-power"
+            ],
+            "weight": 85
+        },
+        "charizard": {
+            "abilities": [
+                "blaze",
+                "solar-power"
+            ],
+            "weight": 905
+        },
+        "entei": {
+            "abilities": [
+                "pressure",
+                "inner-focus"
+            ],
+            "weight": 1980
+        }
+    },
+    "flying": {
+        "charizard": {
+            "abilities": [
+                "blaze",
+                "solar-power"
+            ],
+            "weight": 905
+        },
+        "spearow": {
+            "abilities": [
+                "keen-eye",
+                "sniper"
+            ],
+            "weight": 20
+        },
+        "fearow": {
+            "abilities": [
+                "keen-eye",
+                "sniper"
+            ],
+            "weight": 380
+        }
+    },
+    "grass": {
+        "ivysaur": {
+            "abilities": [
+                "overgrow",
+                "chlorophyll"
+            ],
+            "weight": 130
+        },
+        "bulbasaur": {
+            "abilities": [
+                "overgrow",
+                "chlorophyll"
+            ],
+            "weight": 69
+        },
+        "gloom": {
+            "abilities": [
+                "chlorophyll",
+                "stench"
+            ],
+            "weight": 86
+        }
+    },
+    "poison": {
+        "ivysaur": {
+            "abilities": [
+                "overgrow",
+                "chlorophyll"
+            ],
+            "weight": 130
+        },
+        "bulbasaur": {
+            "abilities": [
+                "overgrow",
+                "chlorophyll"
+            ],
+            "weight": 69
+        },
+        "ekans": {
+            "abilities": [
+                "intimidate",
+                "shed-skin",
+                "unnerve"
+            ],
+            "weight": 69
+        },
+        "arbok": {
+            "abilities": [
+                "intimidate",
+                "shed-skin",
+                "unnerve"
+            ],
+            "weight": 650
+        },
+        "gloom": {
+            "abilities": [
+                "chlorophyll",
+                "stench"
+            ],
+            "weight": 86
+        }
+    },
+    "ground": {
+        "sandslash": {
+            "abilities": [
+                "sand-veil",
+                "sand-rush"
+            ],
+            "weight": 295
+        }
+    }
+}

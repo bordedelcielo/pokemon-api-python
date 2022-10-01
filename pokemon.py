@@ -1,19 +1,4 @@
-import requests
-
-# def get_poke(pokemon):
-#     r = requests.get(f'https://pokeapi.co/api/v2/pokemon/{pokemon}').json()
-#     print(r['types'])
-
-#     for i in r['types']:
-#         print(i['type']['name'])
-
-#     for i in r['abilities']:
-#         print(i['ability']['name'])
-
-#     print(r['weight'])
-
-
-# get_poke('pichu')
+import requests, json
 
 def add_poke(pokemon='pichu', pokedex=[{},{}]):
     if pokemon.title() not in pokedex[0]:
@@ -45,4 +30,10 @@ def create_dex(poke_list, pokedex=[{},{}]):
 
     return pokedex[1]
 
-print(create_dex(my_pokedex))
+def make_json(py_dict):
+    print(f'Creating json for Python Dictionary: {py_dict}')
+
+    with open('pokedex.json', 'w') as fp:
+        json.dump(py_dict, fp)
+
+make_json(create_dex(my_pokedex))
