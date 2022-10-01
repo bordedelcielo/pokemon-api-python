@@ -1,0 +1,1 @@
+A demonstration of the use of Python for acquiring and manipulating data from the Pokemon API.
